@@ -2,6 +2,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from "../../public/images/profile/developer-pic-1.png"
+import profilePicNew from "../../public/images/profile/robot-profile-pic.png"
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/icons'
@@ -26,7 +27,13 @@ export default function Home() {
         <Layout className='pt-0 md:pt-16 sm:pt-8'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
               <div className='w-1/2 md:w-full'>
-                <Image src={profilePic} alt="BawaSen" className="w-full h-auto lg:hidden md:inline-block md:w-full"
+                {/* <Image src={profilePic} alt="BawaSen" className="w-full h-auto lg:hidden md:inline-block md:w-full"
+                priority
+                sizes="(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vw,
+                50vw"
+                /> */}
+                <Image src={profilePicNew} alt="BawaSen" className="w-full h-auto lg:hidden md:inline-block md:w-full"
                 priority
                 sizes="(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw,
@@ -40,10 +47,10 @@ export default function Home() {
 Explore my latest projects and articles, showcasing my expertise in React.js and web development.
 </p>
                 <div className='flex items-center self-start mt-2 lg:self-center'>
-                   <Link href="/dummy.pdf" target='_blank'
+                   <Link href="/CV Bawanga Senevirathne 2023.pdf" target='_blank'
                    className='flex items-center bg-dark text-light dark:bg-light dark:text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark hover:dark:bg-dark hover:dark:text-light border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base' download={true}>Resume <LinkArrow className={"w-6 ml-1"}/>
                    </Link>
-                   <Link href="mailto:abc@gmail.com" target='_blank'
+                   <Link href="mailto:bawasen12@gmail.com" target='_blank'
                     className='ml-4 text-lg font-medium capitalize  text-dark  dark:text-light underline md:text-base'
                    >Contact</Link>
 

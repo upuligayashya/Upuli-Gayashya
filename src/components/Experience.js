@@ -52,36 +52,41 @@ const Experience = () => {
 
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details
-                    position="Software Engineer"
-                    company="Google"
-                    companyLink="https://google.com"
-                    time= "2022-Present"
-                    address="Mountain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    position="DATA ENTRY OPERATOR"
+                    company="Intelligent Image Management Inc. (IIMI) – Sri Lanka"
+                    companyLink="https://www.iimdirect.com/"
+                    time= "(2022 January - Present"
+                    address="36 A Nawala Road, Nugegoda
+                    SRI LANKA"
+                    work="Working on a team responsible for quality oriented data logging and data quality checking before handling over."
                 />
 
                 <Details
-                    position="Intern"
-                    company="Facebook"
-                    companyLink="https://facebook.com"
-                    time= "Summer 2021"
-                    address="Menlo Park, CA."
-                    work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-                    share short-form video content, including designing and implementing a new user interface and developing 
-                    the backend infrastructure to support the feature."
+                    position="JUNIOR SOFTWARE ENGINEER"
+                    company="Aus-ETech Pvt. Ltd."
+                    companyLink="http://ausetech.com.au/"
+                    time= "2021 November – 2022 May"
+                    address="Unit 2, 5 McPhail Road
+                    Coomera QLD 4209"
+                    work="Worked on a team responsible for developing web oriented applications with technologies such as PHP, MYSQL etc. Full Stack development is done within the team and all the engineers participated on it. I worked mostly on back-end development."
                 />
 
                 <Details
-                    position="Software Developer Intern"
-                    company="microsoft"
-                    companyLink="https://microsoft.com"
-                    time= "Summer 2019"
-                    address="Redmond, WA."
-                    work="Worked on a team responsible for developing new features for Microsoft's Windows operating system, 
-                    including implementing a new user interface for a system settings panel and optimizing the performance of 
-                    a core system component."
+                    position="VISITING LECTURER - ICT"
+                    company="Mowbray College, Kandy, Sri Lanka"
+                    companyLink="https://mowbraycollege.lk/"
+                    time= "2018 August - 2018 December"
+                    address="7JPR+RF5, Rajapihilla Mawatha, Kandy"
+                    work="Worked as a visiting Lecturer, which the position enabled to teach student from Grade 10,11 and GCE Advanced Level Students"
+                />
+
+                <Details
+                    position="VISITING LECTURER - ICT"
+                    company="E-Mind Srl. Kandy, Sri Lanka"
+                    companyLink="https://www.e-mind.it/"
+                    time= "2018 January - 2018 December"
+                    address=" "
+                    work="Worked as a visiting Lecturer, which the position enabled to teach student from Grade 10,11"
                 />
             </ul>
         </div>

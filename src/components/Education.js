@@ -58,14 +58,13 @@ const Education = () => {
                     institue="Open University of Sri Lanka"
                     institueLink="https://ou.ac.lk"
                     time= "2021-Present"
-                    edWork="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                    Intelligence."
+                    edWork=" Year 3"
                 />
 
                 <Details
                     degree="General Certificate Examination (G.C.E) - Advanced Level"
                     institue="St.Anthony's College Kandy"
-                    institueLink="https://sack.lk"
+                    institueLink="https://www.sack.edu.lk/#gsc.tab=0"
                     time= "2018"
                     edWork="In Physical Science Stream"
                 />
