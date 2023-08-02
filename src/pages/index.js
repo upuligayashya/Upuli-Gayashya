@@ -43,7 +43,7 @@ export default function Home() {
               <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
                 <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left
                 xl:!text-5xl lg!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
-                <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>Driven by Code, Fueled by Curiosity, and Committed to Advancing Technology's Frontiers. Embracing Challenges, Crafting Solutions, and Making a Positive Impact, One Algorithm at a Time!
+                <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>Driven by Code, Fueled by Curiosity, and Committed to Advancing Technology&apos;s Frontiers. Embracing Challenges, Crafting Solutions, and Making a Positive Impact, One Algorithm at a Time!
 </p>
                 <div className='flex items-center self-start mt-2 lg:self-center'>
                    <Link href="/CV Bawanga Senevirathne 2023.pdf" target='_blank'
