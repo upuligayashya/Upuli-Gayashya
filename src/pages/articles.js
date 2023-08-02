@@ -10,6 +10,9 @@ import { motion, useMotionValue } from 'framer-motion'
 import articel3 from '../../public/images/articles/create modal component in react using react portals.png'
 import articel4 from '../../public/images/articles/form validation in reactjs using custom react hook.png'
 import TransitionEffect from '@/components/TransitionEffect'
+import { blogPosts } from '@/lib/data'
+
+
 
 const FramerImage = motion(Image);
 
@@ -92,7 +95,14 @@ const FeaturedArticle = ({img,title,time,summary,link}) =>{
 }
 
 
+
+
+
+
+
+
 const articles = () => {
+
   return (
     <>
         <Head>
@@ -101,10 +111,42 @@ const articles = () => {
         </Head>
         <TransitionEffect/>
 
+
         <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden'>
             <Layout className='pt-16'>
                 <AnimatedText text="Words Can Change The World! " className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
-                <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
+
+
+                {/* blogPosts map goes here */}
+                <div>
+                  {blogPosts.map((item) => (
+                            <div key={item.slug} className='w-full px-8 xs:px-4 py-8 bg-light border border-dark my-6 rounded-[2rem] dark:bg-dark dark:border-light dark:text-light'>
+                                <div className='text-2xl font-bold underline xs:text-xl'>
+                                    <Link href={`/blog/${item.slug}`}>
+                                    <div>{item.title}</div>
+                                    </Link>
+                                </div>
+                                <p className='text-primary dark:text-primaryDark font-semibold sm:self-start sm:pl-0 xs:text-sm  my-3 xs:text-md '><span className='font-medium italic text-dark/75 dark:text-light/75'>from</span> {item.author}</p>
+                                <p className=' border-b-[1px] border-dark/50 pb-2 xs:text-sm '>{item.intro_desc}</p>
+                                <p className='mt-3 font-semibold text-dark/75'>{item.date}</p>
+                            </div>
+                    ))}
+
+                </div>
+                
+
+                {/* <Link href="/posts" 
+                className='flex w-[12rem] text-center justify-center items-center bg-dark text-light dark:bg-light dark:text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark hover:dark:bg-dark hover:dark:text-light border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base my-3'>
+                    ALL POSTS
+                </Link> */}
+
+
+
+
+
+
+
+                {/* <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
 
                     <FeaturedArticle
                         title="Build A Custom Pagination Component In Reactjs From Scratch"
@@ -154,7 +196,7 @@ const articles = () => {
                     link="/"
                     img={articel3}
                     />
-                </ul>
+                </ul> */}
 
             </Layout>
         </main>
@@ -163,3 +205,4 @@ const articles = () => {
 }
 
 export default articles
+
