@@ -18,7 +18,7 @@ const Logo = () => {
                 repeat:Infinity
             }
         }}
-        >BS</MotionLink>
+        >UG</MotionLink>
     </div>
   )
 }
