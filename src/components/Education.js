@@ -54,26 +54,60 @@ const Education = () => {
 
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details
-                    degree="BACHELOR OF SOFTWARE ENGINEERING (U.g)"
-                    institue="Open University of Sri Lanka"
-                    institueLink="https://ou.ac.lk"
+                    degree="BICT (Hons) SOFTWARE ENGINEERING (U.g)"
+                    institue="IBA Campus | AeUniversity."
+                    institueLink="https://iba.lk/new/index.php"
                     time= "2021-Present"
                     edWork=" Year 3"
                 />
 
                 <Details
-                    degree="General Certificate Examination (G.C.E) - Advanced Level"
-                    institue="St.Anthony's College Kandy"
-                    institueLink="https://www.sack.edu.lk/#gsc.tab=0"
-                    time= "2018"
-                    edWork="In Physical Science Stream"
+                    degree="GCP Psychology - Certificate Course"
+                    institue="Lanka Institute of Phychologies (LIPs)"
+                    institueLink="https://www.facebook.com/people/LANKA-Institute-of-Psychologies-Pvt-Ltd/100069297240681/"
+                    time= "2022"
+                    edWork=""
                 />
+
                 <Details
+                    degree="NVQ level 4 - Information Communication and Technology Technician"
+                    institue="National Apprentice and Industrial Training Authority
+                    of Sri Lanka (NAITA)"
+                    institueLink="https://naita.gov.lk/"
+                    time= "2019"
+                    edWork="Information Communication and Technology"
+                />
+
+                <Details
+                    degree="Graphic Designing - Certificate Course"
+                    institue="Open University of Sri lanka"
+                    institueLink="https://ou.ac.lk/"
+                    time= "2019"
+                    edWork="Includes: Adobe Photoshop, CoralDraw, Adobe InDesign, Adobe Illustrator"
+                />
+
+                <Details
+                    degree="General Certificate Examination (G.C.E) - Advanced Level"
+                    institue="Swarnapali Girl’s College - Anuradhapura"
+                    institueLink="https://swarnapalibalika.lk/"
+                    time= "2018"
+                    edWork="In Biology Stream"
+                />
+
+                <Details
+                    degree="Cambridge Assessment English"
+                    institue="British Council - Sri Lanka"
+                    institueLink="https://www.britishcouncil.lk/"
+                    time= "2016"
+                    edWork=""
+                />
+
+                {/* <Details
                     degree="Online Coursework"
                     institueLink="https://sack.lk"
                     edWork="Online courses related to my stream"
                     courses="Machine Learning Basics" 
-                />
+                /> */}
 
                 
             </ul>

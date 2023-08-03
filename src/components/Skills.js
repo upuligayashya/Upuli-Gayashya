@@ -73,22 +73,24 @@ const Skills = () => {
 
             <Skill name="HTML" x="-25vw" y="2vw"/>
             <Skill name="CSS" x="-5vw" y="-6vw"/>
-            <Skill name="JAVASCRIPT" x="20vw" y="6vw"/>
+            <Skill name="JAVASCRIPT" x="20vw" y="2vw"/>
             <Skill name="ReactJS" x="-0vw" y="12vw"/>
             <Skill name="NextJS" x="-20vw" y="-15vw"/>
-            <Skill name="GatsbyJS" x="15vw" y="-12vw"/>
             <Skill name="Web Desgin" x="27vw" y="-15vw"/>
             <Skill name="Figma" x="0vw" y="-20vw"/>
             <Skill name="Firebase" x="-25vw" y="18vw"/>
             <Skill name="Tailwind CSS" x="18vw" y="18vw"/>
 
-            <QASkill name="Auto Testing" x="18vw" y="-5vw"/>
-            <QASkill name="Manual Testing" x="4vw" y="-15vw"/>
-            <QASkill name="Selenium" x="-27vw" y="-5vw"/>
-
-            <MLSkill name="Unsupervised Learning" x="-11vw" y="-18vw"/>
-            <MLSkill name="Neural Networks" x="-10vw" y="3vw"/>
-            <MLSkill name="Regression" x="30vw" y="0vw"/>
+            <QASkill name="Software QA" x="14vw" y="-20vw"/>
+            <QASkill name=" Java" x="4vw" y="-15vw"/>
+            <QASkill name="Regression" x="-27vw" y="-5vw"/>
+            <QASkill name="Test Scripts" x="-11vw" y="-18vw"/>
+            <QASkill name="Manual Test Cases" x="-10vw" y="3vw"/>
+            <QASkill name="Scrum" x="35vw" y="0vw"/>
+            <QASkill name="SQL Server" x="27vw" y="-5vw"/>
+            <QASkill name="Development Life" x="20vw" y="10vw"/>
+            <QASkill name="SDLC" x="7vw" y="-5vw"/>
+            <QASkill name="End Testing" x="-17vw" y="12vw"/>
             
         </div>
     </>

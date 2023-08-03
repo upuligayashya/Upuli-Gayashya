@@ -62,32 +62,24 @@ const Experience = () => {
                 />
 
                 <Details
-                    position="JUNIOR SOFTWARE ENGINEER"
-                    company="Aus-ETech Pvt. Ltd."
-                    companyLink="http://ausetech.com.au/"
-                    time= "2021 November – 2022 May"
-                    address="Unit 2, 5 McPhail Road
-                    Coomera QLD 4209"
-                    work="Worked on a team responsible for developing web oriented applications with technologies such as PHP, MYSQL etc. Full Stack development is done within the team and all the engineers participated on it. I worked mostly on back-end development."
+                    position="Information Communication and Technology Technician"
+                    company="Govt. Teaching Hospital - Anuradhapura"
+                    companyLink=""
+                    time= "2020 June – 2021 January"
+                    address="Harischandra Mawatha, Anuradhapura, Sri Lanka"
+                    work="Worked on a office with the responsibility of operating and maintaining computer systems and data processing."
                 />
 
                 <Details
-                    position="VISITING LECTURER - ICT"
-                    company="Mowbray College, Kandy, Sri Lanka"
-                    companyLink="https://mowbraycollege.lk/"
-                    time= "2018 August - 2018 December"
-                    address="7JPR+RF5, Rajapihilla Mawatha, Kandy"
-                    work="Worked as a visiting Lecturer, which the position enabled to teach student from Grade 10,11 and GCE Advanced Level Students"
+                    position="ICT Technician"
+                    company="City Resort - Anuradhapura"
+                    companyLink="https://city-resort-anuradhapura.booked.net/"
+                    time= "2021 January – 2021 May"
+                    address="242, National Housing, New Town, Anuradhapura Town, Anuradhapura, Sri Lanka, Anuradhapura, North-Central 50000"
+                    work="Worked on a privately ownes Resort with the responsibility of operating and maintaining computer systems of the resort and data processing of events and bookings."
                 />
 
-                <Details
-                    position="VISITING LECTURER - ICT"
-                    company="E-Mind Srl. Kandy, Sri Lanka"
-                    companyLink="https://www.e-mind.it/"
-                    time= "2018 January - 2018 December"
-                    address=" "
-                    work="Worked as a visiting Lecturer, which the position enabled to teach student from Grade 10,11"
-                />
+              
             </ul>
         </div>
 

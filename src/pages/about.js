@@ -41,7 +41,7 @@ const about = () =>{
   return (
     <>
         <Head>
-            <title>Bawanga Senevirathne | About Page</title>
+            <title>Upuli Gayashya | About Page</title>
             <meta name='description' content='any description'/>
         </Head>
         <TransitionEffect/>
@@ -52,11 +52,21 @@ const about = () =>{
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                     <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light'>Biography</h2>
-                        <p className='font-medium'>👋 Howdy! I&apos;m Bawanga Senevirathne, a software engineering undergrad with a passion for software development, quality assurance, and an obsession with all things machine learning (yes, I dream about algorithms). 🤖 Solving problems and thinking logically are my superpowers – call me the Code Crusader!</p>
-                        <p className='my-4 font-medium'>💻 Crafting clean code is my secret sauce, and I&apos;m on a mission to squash bugs like a ninja. 🐞 Quality is my middle name – no software leaves my hands without a seal of approval</p>
-                        <p className='my-4 font-medium'>When I&apos;m not nerding out with code, you can catch me exploring the outdoors or traveling through sci-fi novels 🚀📚 – gotta keep the imagination sharp!
+                        <p className='font-medium'>
+                        👋 Hey there! I&apos;m Upuli Gayashya, a passionate and driven software engineering undergraduate on a mission to conquer the tech world with a touch of girl power! 💪💻
+                        </p>
+                        <p className='my-4 font-medium'>
+                        🌟 With an eye for detail and a knack for crafting elegant solutions, I dive into software development while dancing to my own code beats. 💃🎶</p>
+                        <p className='my-4 font-medium'>
+                        🔍 Quality assurance is not just my expertise but also my passion - I leave no bug unturned! 🐞
 </p>
-                        <p className='my-4 font-medium'>Ready to join forces on some tech wizardry? Let&apos;s connect and cook up some groundbreaking projects together. Shoot me a message at [ Bawasen12@gmail.com ], and let&apos;s geek out! 😎🚀
+                        <p className='my-4 font-medium'>
+                        💭 As a logical thinker and problem-solving enthusiast, I thrive on turning challenges into opportunities for growth and innovation. 🚀
+                        </p>
+                        <p className='my-4 font-medium'>
+                        🌈 When I&apos;m not shaping digital dreams, I embrace the colorful wonders of the outdoors or escape into whimsical tales of heroines in sci-fi novels. 📚✨
+                        </p>
+                        <p className='my-4 font-medium'>🚀 Excited to collaborate on tech wonders and make the world brighter with my tech-savvy charm! Let&apos;s embark on this journey together. Connect with me, and let&apos;s geek out with some girl power magic! 💫😎
                         </p>
 
 

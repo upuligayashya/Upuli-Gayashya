@@ -81,13 +81,13 @@ const NavBar = () => {
             </nav>
             
             <nav className='flex items-center justify-center flex-wrap'>
-                <motion.a href="https://twitter.com" target={"_blank"}
+                {/* <motion.a href="https://twitter.com" target={"_blank"}
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}}
                     className='w-6 mx-3'
                 >
                     <TwitterIcon/>
-                </motion.a>
+                </motion.a> */}
                 <motion.a href="https://github.com" target={"_blank"}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
@@ -143,7 +143,7 @@ const NavBar = () => {
                             <TwitterIcon/>
                         </motion.a> */}
 
-                        <motion.a href="https://github.com/bsen-alt" target={"_blank"}
+                        <motion.a href="https://github.com/upuligayashya" target={"_blank"}
                         whileHover={{y:-2}}
                         whileTap={{scale:0.9}}
                         className='w-6 mx-3 sm:mx-1'
@@ -151,7 +151,7 @@ const NavBar = () => {
                             <GithubIcon/>
                         </motion.a>
 
-                        <motion.a href="https://www.linkedin.com/in/bawanga-senevirathne-675564201/" target={"_blank"}
+                        <motion.a href="https://www.linkedin.com/in/h-d-upuli-gayashya-lakshani-de-silva-940b9a241/" target={"_blank"}
                         whileHover={{y:-2}}
                         whileTap={{scale:0.9}}
                         className='w-6 mx-3 sm:mx-1'

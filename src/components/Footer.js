@@ -9,7 +9,7 @@ const Footer = () => {
             <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
             <div>
                 <Link href="https://fusedsite.web.app/" 
-                className='underline underline-offset-2'>BawangaSenevirathne</Link>
+                className='underline underline-offset-2'>UpuliGayashya</Link>
             </div>
             <div className='flex items-center lg:py-2'>
             <Link href="https://fusedsite.web.app/" target={"_blank"}>Say Hello</Link> <span className='text-primary text-2xl px-1 dark:text-primaryDark'>&#9825;</span>

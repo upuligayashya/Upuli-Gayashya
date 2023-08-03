@@ -17,13 +17,16 @@ module.exports = {
       colors:{
         dark: "#1b1b1b",
         light: "#f5f5f5",
-        primary: "#B63E96", // 240,86,199
-        primaryDark: "#58E6D9", // 80,230,217
-        mldark:"#008900",
+        primary: "#e7926c", // 240,86,199
+        primaryDark: "#0af737", // 80,230,217
         qadark:"#e69500",
-        mllight:"#27ff27",
         qalight:"#ffb835",
-        me:"#ffff74"
+        me:"#ffff74",
+
+        
+
+
+        
       },
       animation:{
         'spin-slow': 'spin 8s linear infinite',
