@@ -74,7 +74,7 @@ const Experience = () => {
                     position="ICT Technician"
                     company="City Resort - Anuradhapura"
                     companyLink="https://city-resort-anuradhapura.booked.net/"
-                    time= "2021 January – 2021 May"
+                    time= "2020 April – 2020 October"
                     address="242, National Housing, New Town, Anuradhapura Town, Anuradhapura, Sri Lanka, Anuradhapura, North-Central 50000"
                     work="Worked on a privately ownes Resort with the responsibility of operating and maintaining computer systems of the resort and data processing of events and bookings."
                 />

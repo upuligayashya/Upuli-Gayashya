@@ -46,7 +46,7 @@ export default function Home() {
                 Building Beyond Boundaries: A Software Developer and QA Enthusiast on a Mission to Transform Challenges into Quality Solutions, Making a Meaningful Impact in the Digital Realm!
 </p>
                 <div className='flex items-center self-start mt-2 lg:self-center'>
-                   <Link href="/CV Bawanga Senevirathne 2023.pdf" target='_blank'
+                   <Link href="/UPULI GAYASHYA CV.pdf" target='_blank'
                    className='flex items-center bg-dark text-light dark:bg-light dark:text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark hover:dark:bg-dark hover:dark:text-light border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base' download={true}>Resume <LinkArrow className={"w-6 ml-1"}/>
                    </Link>
                    <Link href="mailto:upuligayashya12@gmail.com" target='_blank'
